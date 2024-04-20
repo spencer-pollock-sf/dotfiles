@@ -1,0 +1,262 @@
+// Place your settings in this file to overwrite the default settings
+// Editor Configs
+{
+    "editor.lineHeight": 18,
+    "editor.rulers": [80, 120, 160, 200],
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.tabCompletion": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "underline",
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    // Files
+    "files.defaultLanguage": "markdown",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 600000,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    // Explorer
+    "explorer.confirmDelete": false,
+    // TODO Extension
+    "todohighlight.keywords": [
+        {
+            "text": "TODO:",
+            "color": "#80CBC4",
+            "backgroundColor": "#00695C"
+        },
+        {
+            "text": "DEBUG:",
+            "color": "#EF5350",
+            "backgroundColor": "#B71C1C"
+        },
+        {
+            "text": "BUG:",
+            "color": "#FFA726",
+            "backgroundColor": "#E65100"
+        },
+        {
+            "text": "REVIEW:",
+            "color": "#7E57C2",
+            "backgroundColor": "#311B92"
+        },
+        {
+            "text": "NOTE:",
+            "color": "#e4daef",
+            "backgroundColor": "#9883ad"
+        },
+        {
+            "text": "HACK:",
+            "color": "#78909C",
+            "backgroundColor": "#37474F",
+            "isWholeLine": false
+        },
+        {
+            "text": "DONE:",
+            "color": "#007f00",
+            "backgroundColor": "#00ff00",
+            "isWholeLine": false
+        },
+        {
+            "text": "TEST_CASE_ADDED:",
+            "color": "#007f00",
+            "backgroundColor": "#00ff00",
+            "isWholeLine": false
+        },
+        {
+            "text": "SOLVED:",
+            "color": "#007f00",
+            "backgroundColor": "#00FF00",
+            "isWholeLine": true
+        }
+    ],
+    "workbench.panel.defaultLocation": "bottom",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": true,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "gitlens.keymap": "none",
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.multiCursorModifier": "alt",
+    "editor.fontWeight": "600",
+    "workbench.colorTheme": "Solarized Dark+",
+    "gitlens.views.fileHistory.enabled": true,
+    "gitlens.views.lineHistory.enabled": true,
+    "terminal.integrated.rendererType": "dom",
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": ["javascript", "javascriptreact", "typescript"],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.quiet": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.fixAll.eslint": "explicit"
+    },
+    "terminal.integrated.fontFamily": "Rec Mono Linear,Inconsolata for Powerline",
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "thunder-client.codeSnippetLanguage": "pythn-httpclient",
+    "editor.fontFamily": "Rec Mono Linear, Recursive Mono Casual Static, Consolas, Inconsolata, DejaVu Sans Mono, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.cursorStyle": "underline",
+    "omnisharp.useGlobalMono": "always",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false,
+        "yaml": true
+    },
+    "files.associations": {
+        ".env": "shellscript"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.mac": "/Users/srepollock/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vscode-kubernetes.minikube-path.mac": "/Users/srepollock/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "redhat.telemetry.enabled": true,
+    "prettier.tabWidth": 4,
+    "python.logging.level": "debug",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": ["--ignore", "E402"],
+    "gitlens.hovers.currentLine.over": "line",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.codespaces.showPerformanceExplorer": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "kali-linux (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": ["-d", "kali-linux"]
+        },
+        "Windows PowerShell": {
+            "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "ansible.validation.lint.enabled": false,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "settingsSync.ignoredSettings": ["editor.fontSize"],
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "editor.formatOnSave": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": -1,
+    "snyk.advanced.cliPath": "C:\\Users\\spwn\\AppData\\Local\\snyk-ls\\snyk-win.exe",
+    "snyk.trustedFolders": [
+        "/Users/srepollock/Documents/projects/obsidian-rhythm-ii",
+        "w:\\Projects\\obsidian_rhythm_ii",
+        "/Users/srepollock/Documents/projects/binance-api"
+    ],
+    "snyk.yesWelcomeNotification": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "task.allowAutomaticTasks": "on",
+    "cloudcode.duetAI.project": "obsidian-rhythm-ii",
+    "extensions.ignoreRecommendations": true,
+    "remote.SSH.remotePlatform": {
+        "coder-vscode--srepollock--example": "linux"
+    },
+    "glassit.alpha": 220,
+    "editor.stickyScroll.enabled": true,
+    "cloudcode.project": "obsidian-rhythm-ii-development",
+    "diffEditor.ignoreTrimWhitespace": false
+}
