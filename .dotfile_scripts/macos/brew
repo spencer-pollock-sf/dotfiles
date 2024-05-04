@@ -69,6 +69,7 @@ brew install 1password-cli
 
 # Cloud providers
 brew install awscli
+brew install --cask google-cloud-sdk
 
 # Backups
 brew install s3cmd
@@ -84,6 +85,8 @@ brew install python
 # Terraform
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
+brew tap inkdrop-org/inkdrop-visualizer
+brew install inkdrop-visualizer
 
 # Cloud Dev Environments
 curl -L https://coder.com/install.sh | sh
